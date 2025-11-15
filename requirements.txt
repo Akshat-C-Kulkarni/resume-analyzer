@@ -1,0 +1,23 @@
+# PDF extraction
+pdfplumber==0.11.0
+
+# Core NLP
+spacy==3.7.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Machine Learning
+scikit-learn==1.5.2
+
+# Data handling
+pandas==2.2.3
+numpy==1.26.4
+
+# Utilities
+joblib==1.4.2
+regex==2024.9.11
+
+# Web App
+streamlit==1.39.0
+
+# Parsing support
+beautifulsoup4==4.12.3
