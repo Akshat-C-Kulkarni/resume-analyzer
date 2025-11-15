@@ -31,26 +31,26 @@ It uses classical NLP + ML techniques and provides a clean Streamlit interface f
 
 ## 📁 Project Structure
 
-Resume_Analyzer/
-│
-├── app/
-│   └── app.py                    # Streamlit frontend
-│
-├── src/
-│   ├── extraction.py             # PDF → Text extraction
-│   ├── predict.py                # Preprocessing + prediction
-│   ├── pipeline.py               # Full PDF → Prediction pipeline
-│   └── __init__.py
-│
-├── model/
-│   ├── resume_classifier_model.joblib
-│   ├── vectorizer.joblib
-│   └── label_classes.joblib
-│
-├── data/                          # Local dataset (ignored in Git)
-│
-├── requirements.txt
-└── README.md
+Resume_Analyzer/\n
+│\n
+├── app/\n
+│   └── app.py\t                    # Streamlit frontend\n
+│\n
+├── src/\n
+│   ├── extraction.py\t             # PDF → Text extraction\n
+│   ├── predict.py\t                # Preprocessing + prediction\n
+│   ├── pipeline.py\t               # Full PDF → Prediction pipeline\n
+│   └── __init__.py\n
+│\n
+├── model/\n
+│   ├── resume_classifier_model.joblib\n
+│   ├── vectorizer.joblib\n
+│   └── label_classes.joblib\n
+│\n
+├── data/\t                          # Local dataset (ignored in Git)\n
+│\n
+├── requirements.txt\n
+└── README.md\n
 
 
 ## ⚙️ Installation & Setup
